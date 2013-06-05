@@ -1,0 +1,40 @@
+This toolset is written for to accommodate Visual Vertex's Muster (render farm manager)
+Built for use with Maya without Qt packages. Could be extended for other 3D applications
+
+author = Jesse Denton
+created = 07/02/2013
+version = 1.0.1
+
+
+useage:
+
+from musterSubmit import musterUI
+musterUI.open()
+
+
+
+module description:
+-----------------------------------------------------------------------
+MUSTERTOOLS.py:
+
+MusterDatabase()
+Used to connect to the sqlite database to aquire basic table data.
+MusterTools()
+used to connect to the muster executable to send and recieve calls.
+
+-----------------------------------------------------------------------
+MUSTERUI.py
+
+MusterSubmit()
+Main window class for use with Autodesk Maya.
+MusterSubmit_Tabs()
+tabs class link to main window for layer creation and settings
+
+-----------------------------------------------------------------------
+PROJECTTOOLS.py
+
+PRAFileInfo()
+basic file info api. gathers information from a given file path or name.
+
+
+-----------------------------------------------------------------------
